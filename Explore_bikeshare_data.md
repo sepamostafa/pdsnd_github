@@ -349,6 +349,7 @@ summary(binded_cities)
 
 
 ```R
+## Addding a summary for trip duration for each city
 print("Total Trip duration for chicago city ")
 sum(chi$Trip.Duration)
 
