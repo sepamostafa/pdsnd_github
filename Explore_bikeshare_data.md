@@ -617,6 +617,8 @@ summary(ny_user_info$User.Type)
 
 
 ```R
+## to print the number of users from each gender using the table function
+
 print("number of males and females in nyc")
 table(ny$Gender)
 #______________________
