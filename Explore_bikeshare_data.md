@@ -16,16 +16,6 @@ library(dplyr)
 ```
 
     
-    Attaching package: ‘dplyr’
-    
-    The following objects are masked from ‘package:stats’:
-    
-        filter, lag
-    
-    The following objects are masked from ‘package:base’:
-    
-        intersect, setdiff, setequal, union
-    
 
 
 
@@ -359,6 +349,7 @@ summary(binded_cities)
 
 
 ```R
+## Addding a summary for trip duration for each city
 print("Total Trip duration for chicago city ")
 sum(chi$Trip.Duration)
 
